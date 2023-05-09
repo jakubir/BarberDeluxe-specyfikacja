@@ -12,7 +12,7 @@ Autor: Jakub Irla
 5. [Charakterystyka użytkowników](#charakterystyka-użytkowników)
 8. [Wymagania](#wymagania)
    * [funkcjonalne](#funkcjonalne)
-   * [niefunckjonalne](#niefunkcjonalne)
+   * [niefunkcjonalne](#niefunkcjonalne)
 5. [Rozplanowanie prac w czasie](#rozplanowanie-prac-w-czasie)
 7. [Technologie](#technologie)
 9. [Wycena](#wycena)
@@ -47,4 +47,4 @@ Pracownicy salonu fryzjerskiego będą korzystać z aplikacji w celu korzystania
 
 ## Wymagania
 
-### Funckjonalne
+### Funkcjonalne
