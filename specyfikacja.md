@@ -48,3 +48,12 @@ Pracownicy salonu fryzjerskiego będą korzystać z aplikacji w celu korzystania
 ## Wymagania
 
 ### Funkcjonalne
+* Jako klient chcę zarezerwować wizytę w wybranym terminie, żeby mieć pewność, że zostanę obsłużony w dogodnym dla mnie czasie.
+* Jako klient chcę umawiać wizyty online, żeby zaoszczędzić czas i uniknąć oczekiwania w kolejce.
+* Jako klient chcę móc wybrać usługę fryzjerską z cennika, żeby mieć pełną kontrolę nad kosztami.
+* Jako klient chcę móc otrzymać przypomnienie o nadchodzącej wizycie drogą mailową, żeby nie zapomnieć o umówionej wizycie.
+* Jako klient chcę otrzymywać potwierdzenie wizyty w formie mailowej z linkiem do potwierdzenia, żeby mieć pewność, że wizyta została umówiona i potwierdzona.
+* Jako właściciel salonu chcę mieć dostęp do harmonogramu pracy pracowników, żeby móc zarządzać wizytami i dostosowywać grafik do zapotrzebowania klientów.
+* Jako właściciel salonu chcę mieć możliwość aktualizowania cennika usług, żeby dostosować go do zmieniających się potrzeb klientów i rynku.
+* Jako właściciel chcę mieć możliwość dodawania i edytowania usług w cenniku, żeby mieć aktualne informacje na stronie internetowej i aplikacji.
+* Jako pracownik salonu chcę móc zobaczyć harmonogram pracy i informacje o wizycie klienta, żeby być przygotowanym do jego obsługi.
