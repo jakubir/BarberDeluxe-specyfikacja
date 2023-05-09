@@ -7,20 +7,19 @@ Autor: Jakub Irla
 ## Spis treści
 
 1. [Cel aplikacji](#cel-aplikacji)
-2. [Priorytety](#priorytety) ?
 3. [Cel biznesowy](#cel-biznesowy)
-6. [Korzyści z wdrożenia](#korzyści-z-wdrożenia)
+4. [Korzyści z wdrożenia](#korzyści-z-wdrożenia)
 5. [Charakterystyka użytkowników](#charakterystyka-użytkowników)
-7. [Rozplanowanie prac w czasie](#rozplanowanie-prac-w-czasie)
-8. [Technologie](#technologie)
-9. [Wymagania](#wymagania)
+8. [Wymagania](#wymagania)
    * [funkcjonalne](#funkcjonalne)
    * [niefunckjonalne](#niefunkcjonalne)
-10. [Wycena](#wycena)
+5. [Rozplanowanie prac w czasie](#rozplanowanie-prac-w-czasie)
+7. [Technologie](#technologie)
+9. [Wycena](#wycena)
 
 ## Cel aplikacji
 
-Celem aplikacji jest dostarczenie klientom firmy Barber Shop Deluxe wygodnej metody umawiania wizyt, dostępnej o każdej porze, zintegrowanej z aktualnym harmonogramem pracy firmy.
+Celem aplikacji jest usprawnienie procesu umawiania wizyt oraz zarządzania harmonogramem pracy i cennikiem. Dzięki temu, firma może lepiej zarządzać swoim czasem i zasobami oraz zwiększyć swoją efektywność. Aplikacja ma na celu także poprawę jakości obsługi klienta, dzięki łatwiejszemu i szybszemu umawianiu wizyt oraz lepszemu zarządzaniu informacjami o preferencjach i potrzebach klientów. Dodatkowo, system potwierdzania wizyty przez link w mailu, mailowe przypomnienie dzień przed wizytą o jej terminie oraz automatyczna informacja w przypadku anulowania wizyty przez właściciela, wpływa na poprawę komunikacji z klientami i zwiększenie ich zadowolenia.
 
 ## Cel biznesowy
 
@@ -35,3 +34,17 @@ Przede wszystkim, aplikacja usprawni proces rezerwacji wizyt przez klientów, co
 System potwierdzania wizyty przez link w mailu oraz mailowe przypomnienia o terminie wizyty zwiększają skuteczność rezerwacji oraz minimalizują liczbę nieobecności klientów. Dodatkowo, automatyczne powiadomienie o anulowaniu rezerwacji w salonie uniemożliwia występowanie problemów z niezrealizowanymi wizytami, a także minimalizuje ryzyko utraty klienta, przez jednoczesne zaproponowanie terminów zastępczych.
 
 Wprowadzenie powyższej aplikacji ma zatem na celu zwiększenie efektywności, lepszą organizację pracy w salonie i minimalizację strat, a także poprawę jakości obsługi klientów, co przekłada się na wzrost zadowolenia klientów oraz zwiększenie przychodów firmy.
+
+## Charakterystyka użytkowników
+
+Aplikacja dla salonu fryzjerskiego będzie przeznaczona dla trzech grup użytkowników: klientów, właściciela i pracowników. Wszyscy z nich będą mieli dostęp do informacji o dostępności wizyt, cenniku i harmonogramie pracy.
+
+Klienci to główni użytkownicy aplikacji, którzy będą korzystać z niej w celu umawiania wizyt, przeglądania cennika i zarządzania swoimi preferencjami. Klienci oczekują łatwego i intuicyjnego interfejsu użytkownika, który pozwoli im szybko i bezproblemowo umówić wizytę w dogodnym dla nich terminie, zgodnie z harmonogramem pracy salonu.
+
+Właściciel salonu będzie korzystał z aplikacji w celu zarządzania harmonogramem pracy i cennikiem. Będzie mógł modyfikować cennik, dodawać lub usuwać usługi, a także nadzorować realizację rezerwacji, bądź też anulować je w wygodny sposób w przypadku nagłych zdarzen. Właściciel oczekuje, że aplikacja pozwoli mu lepiej zarządzać swoim biznesem i zwiększyć jego efektywność.
+
+Pracownicy salonu fryzjerskiego będą korzystać z aplikacji w celu korzystania z listy wizyt, by zarządzać swoją pracą, dodawania wizyt rezerwowanych telefonicznie lub w salonie. Pracownicy oczekują, że aplikacja będzie intuicyjna i łatwa w obsłudze, co pozwoli im skupić się na swojej pracy i zapewnić klientom wysoką jakość obsługi.
+
+## Wymagania
+
+### Funckjonalne
