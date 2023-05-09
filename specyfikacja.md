@@ -57,3 +57,7 @@ Pracownicy salonu fryzjerskiego będą korzystać z aplikacji w celu korzystania
 * Jako właściciel salonu chcę mieć możliwość aktualizowania cennika usług, żeby dostosować go do zmieniających się potrzeb klientów i rynku.
 * Jako właściciel chcę mieć możliwość dodawania i edytowania usług w cenniku, żeby mieć aktualne informacje na stronie internetowej i aplikacji.
 * Jako pracownik salonu chcę móc zobaczyć harmonogram pracy i informacje o wizycie klienta, żeby być przygotowanym do jego obsługi.
+
+### Niefukcjonalne
+* Baza danych
+![image](https://github.com/jakubir/jakubirla-projekt-specyfikacja/assets/76539255/4a5eed6e-8722-4688-b604-6b4a90babc32)
