@@ -60,10 +60,13 @@ Pracownicy salonu fryzjerskiego będą korzystać z aplikacji w celu korzystania
 
 ### Niefunkcjonalne
 * Baza danych
-![image](https://github.com/jakubir/jakubirla-projekt-specyfikacja/assets/76539255/4a5eed6e-8722-4688-b604-6b4a90babc32)
+
+![image](./zasoby/model_bazy.png)
 * Diagram klas
+
 ![image](./zasoby/diagram_klas.png)
 * Diagram przypadków użycia
+
 ![image](./zasoby/diagram_przypadkow_uzycia.png)
 
 ## Rozplanowanie prac w czasie
