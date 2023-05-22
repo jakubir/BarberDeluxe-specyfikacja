@@ -115,7 +115,7 @@ Aplikacja dla salonu fryzjerskiego będzie charakteryzować się estetycznym i n
 
 * Fonty używane w aplikacji
 
-  - Montserrat - font  główna
+  - Montserrat - font główny
 
     ![image](./zasoby/Montserrat.png)
 
