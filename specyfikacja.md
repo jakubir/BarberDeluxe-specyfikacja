@@ -65,3 +65,15 @@ Pracownicy salonu fryzjerskiego będą korzystać z aplikacji w celu korzystania
 ![image](./zasoby/diagram_klas.png)
 * Diagram przypadków użycia
 ![image](./zasoby/diagram_przypadkow_uzycia.png)
+
+## Rozplanowanie prac w czasie
+
+Planowany czas realizacji projektu obejmuje okres od 22.05.2023 do 18.06.2023 
+
+Poniżej przedstawiono szczegółowy graficzny plan prac w postaci wykresu Gantta.
+
+![image](./zasoby/wykres_ganta.png)
+
+## Wycena
+
+Projekt zakłada stworzenie kompleksowej aplikacji salonu fryzjerskiego, która będzie obejmować system umawiania wizyt, harmonogram pracy, zarządzanie cennikiem i inne funkcje opisane wcześniej. Na podstawie zakresu projektu i przyjętych wymagań, całkowity koszt realizacji mieści się w przedziale od 30 000 do 40 000 zł.
