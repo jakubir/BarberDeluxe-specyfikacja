@@ -14,6 +14,7 @@ Autor: Jakub Irla
    * [funkcjonalne](#funkcjonalne)
    * [niefunkcjonalne](#niefunkcjonalne)
 5. [Rozplanowanie prac w czasie](#rozplanowanie-prac-w-czasie)
+6. [Projekt graficzny](#projekt-graficzny)
 7. [Technologie](#technologie)
 9. [Wycena](#wycena)
 
@@ -45,6 +46,10 @@ Właściciel salonu będzie korzystał z aplikacji w celu zarządzania harmonogr
 
 Pracownicy salonu fryzjerskiego będą korzystać z aplikacji w celu korzystania z listy wizyt, by zarządzać swoją pracą, dodawania wizyt rezerwowanych telefonicznie lub w salonie. Pracownicy oczekują, że aplikacja będzie intuicyjna i łatwa w obsłudze, co pozwoli im skupić się na swojej pracy i zapewnić klientom wysoką jakość obsługi.
 
+Podane relacje zaprezentowane na schemacie systemu, w formie graficznej przedstawiono na diagramie przypadków użycia:
+
+![image](./zasoby/diagram_przypadkow_uzycia.png)
+
 ## Wymagania
 
 ### Funkcjonalne
@@ -59,15 +64,38 @@ Pracownicy salonu fryzjerskiego będą korzystać z aplikacji w celu korzystania
 * Jako pracownik salonu chcę móc zobaczyć harmonogram pracy i informacje o wizycie klienta, żeby być przygotowanym do jego obsługi.
 
 ### Niefunkcjonalne
-* Baza danych
+
+* Aplikacja powinna zapewniać płynne i responsywne działanie, nawet przy dużej liczbie użytkowników i obciążeniu systemu.
+* Czas ładowania stron i operacji powinien być minimalny.
+* Aplikacja powinna spełniać wysokie standardy bezpieczeństwa, zapewniając poufność i integralność danych użytkowników.
+* Wszelkie operacje związane z danymi osobowymi powinny być zgodne z przepisami dotyczącymi ochrony prywatności, takimi jak RODO.
+* Architektura aplikacji powinna być zaprojektowana w taki sposób, aby łatwo można było dodawać nowe funkcje i moduły w przyszłości.
+* Aplikacja powinna być dostępna dla użytkowników przez całą dobę, 7 dni w tygodniu.
+* Interfejs użytkownika powinien być intuicyjny i dostępny dla osób z różnym poziomem umiejętności technicznych.
+
+## Model systemu
+
+Poniżej został przedstawiony ogólny pogląd na główne moduły systemu i dostęp użytkowników do nich, a także modele bazy danych oraz klas użytych w trakcie realizacji projektu.
+
+Moduły systemu:
+
+  * System umawiania wizyt: Pozwala klientom na wybór dogodnego terminu wizyty, sprawdzenie dostępności fryzjerów oraz dokonanie rezerwacji. Obejmuje również funkcję potwierdzania wizyty przez link w mailu oraz przypomnienia mailowe o nadchodzących wizytach.
+  * Harmonogram pracy: Zapewnia właścicielowi możliwość definiowania harmonogramu pracy dla fryzjerów, uwzględniając godziny otwarcia, przerwy i dostępność poszczególnych fryzjerów.
+  * Cennik: Przechowuje informacje o usługach fryzjerskich oferowanych przez salon wraz z odpowiadającymi im cenami. Właściciel może zarządzać tymi informacjami i wprowadzać zmiany w cenniku.
+  * Powiadomienia: System generuje automatyczne powiadomienia, takie jak przypomnienia o wizycie klientowi, potwierdzenia rezerwacji oraz informacje o anulowanych wizytach, przesyłane za pomocą poczty mailowej.
+  
+Interfejs użytkownika:
+
+  * Panel klienta: Klienci mają dostęp do strony głównej, gdzie mogą przeglądać cennik i harmonogram działania oraz rezerwować wizyty.
+  * Panel administracyjny: Właściciel posiada dostęp do panelu administracyjnego, gdzie może zarządzać harmonogramem pracy, cennikiem, wizytami klientów oraz je anulować.
+
+Baza danych
 
 ![image](./zasoby/model_bazy.png)
-* Diagram klas
+
+Diagram klas
 
 ![image](./zasoby/diagram_klas.png)
-* Diagram przypadków użycia
-
-![image](./zasoby/diagram_przypadkow_uzycia.png)
 
 ## Rozplanowanie prac w czasie
 
@@ -77,6 +105,36 @@ Poniżej przedstawiono szczegółowy graficzny plan prac w postaci wykresu Gantt
 
 ![image](./zasoby/wykres_ganta.png)
 
+## Projekt graficzny
+
+Aplikacja dla salonu fryzjerskiego będzie charakteryzować się estetycznym i nowoczesnym wyglądem, który odzwierciedli profesjonalizm i styl salonu.
+
+* Kolorystyka używana w aplikacji
+
+  ![image](./zasoby/kolorystyka.png)
+
+* Fonty używane w aplikacji
+
+  - Montserrat - font  główna
+
+    ![image](./zasoby/Montserrat.png)
+
+  - Cormorant Garamond - font dekoracyjny
+
+    ![image](./zasoby/Cormorant_Garamond.png)
+    
+* Projekt graficzny
+
+  Projekt graficzny jest dostępny pod adresem: https://www.figma.com/file/1WVTnyhyFKeyWoimrTI24Y/Zak%C5%82ad-fryzjerski?type=design&node-id=0%3A1&t=dEzguPdCfJvO9JP2-1, a także w plikach panel_administratora.pdf i panel_klienta.pdf, znajdujących się w katologu głównym.
+
+## Technologie
+
+Powyższa aplikacja zostanie opracowana przy użyciu następujących technologii:
+* frameworku JavaScript Astro - do sporządzenia statycznej części strony
+* frameworku JavaScript React - do stworzenia interaktywnych elementów projektu
+* frameworku Node.js Nest - do przygotowania API, stanowiącego część backendową aplikacji
+* preprocesora CSS Sass - do responsywnego zrealizowania projektu graficznego
+
 ## Wycena
 
-Projekt zakłada stworzenie kompleksowej aplikacji salonu fryzjerskiego, która będzie obejmować system umawiania wizyt, harmonogram pracy, zarządzanie cennikiem i inne funkcje opisane wcześniej. Na podstawie zakresu projektu i przyjętych wymagań, całkowity koszt realizacji mieści się w przedziale od 30 000 do 40 000 zł.
+Projekt zakłada stworzenie kompleksowej aplikacji salonu fryzjerskiego, która będzie obejmować system umawiania wizyt, harmonogram pracy, zarządzanie cennikiem i inne funkcje opisane wcześniej. Na podstawie zakresu projektu i przyjętych wymagań, całkowity koszt realizacji mieści się w przedziale od 40 000 do 50 000 zł (ok. 200 godz. pracy).
