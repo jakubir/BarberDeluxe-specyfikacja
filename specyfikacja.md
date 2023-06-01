@@ -13,6 +13,7 @@ Autor: Jakub Irla
 8. [Wymagania](#wymagania)
    * [funkcjonalne](#funkcjonalne)
    * [niefunkcjonalne](#niefunkcjonalne)
+6. [Model sytemu](#model-systemu)
 5. [Rozplanowanie prac w czasie](#rozplanowanie-prac-w-czasie)
 6. [Projekt graficzny](#projekt-graficzny)
 7. [Technologie](#technologie)
